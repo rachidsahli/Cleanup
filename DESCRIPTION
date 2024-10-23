@@ -1,0 +1,14 @@
+Package: cleanup
+Type: Package
+Title: Data Cleanup
+Version: 0.1.0
+Author: person("Rachid", "Sahli", "rachidsahli144@outlook.com", role = c("aut"))
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: A simple tool for efficient data cleanup.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

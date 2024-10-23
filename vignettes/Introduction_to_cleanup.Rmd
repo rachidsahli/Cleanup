@@ -1,0 +1,26 @@
+---
+title: "Introduction to Cleanup"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{comment-utiliser-mon-package}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+Data rarely comes perfectly clean and ready for analysis. Preprocessing can often be a time-consuming task. Cleanup provides a set of functions designed to simplify the process of cleaning your data. With this package, you can easily perform a comprehensive diagnostic of your dataset's quality, making data preparation faster and more efficient.
+
+# Installation
+
+```{r echo=TRUE}
+# Installation
+install.packages("cleanup")
+
+# Load
+library(cleanup)
+```
+
+# Usage
+
+```{r, include = FALSE}
+library(cleanup)
+```
